@@ -36,3 +36,6 @@
 # 重新进行上面的操作
 
 1. 将origin/master的最新版本恢复到没有该文件的状态，再保存此文件，然后add和commit。由另一用户（ruilovechu）获取
+2. 另一个用户使用git fetch origin master:fetched 来创建本地新分支。
+3. 对比本地两个分支。
+

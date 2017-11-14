@@ -50,4 +50,10 @@
 1. 11111111111111111111111111111111111111111111111111111111
 2. 22222222222222222222222222222222222222222222222222222222
 
+# 解决冲突的方法
 
+1. ruilovechu的习惯：在开发分支dev开发后，切换到master并merge(from)dev, 然后尝试push到远程origin的仓储分支master上
+2. 但是ruilovechu发现冲突了！
+3. ruilovechu使用git fetch origin master:fed将服务器上的最新内容clone到自己本地的另外一个临时分支上。
+4. 从dev分支merge刚才的fed，会出现冲突标记，解决后，在master中merge这些内容。
+5. 再次push.

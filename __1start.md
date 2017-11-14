@@ -24,6 +24,7 @@
 
 1. ruilovechu使用git checkout -b dev
 2. brucel50使用git checkout -b odev
+3. git branch newbranch
 
 # 此文件是在brucel50的用户的文件夹下创建的，尝试提交本文件。
 
